@@ -4,7 +4,7 @@
 变量格式：export mggy="body=xxxxxxxx"
 cron 20 11,13 * * *
 */
-
+cron 20 11,13 * * *
 const $ = new Env("芒果果园");
 let envSplitor = ['\n']  //多账号隔开方式，默认换行可自定义
 const fs = require('fs')
