@@ -2,7 +2,7 @@
 目标:  芒果果园App 抓包https://api-farm.game.mgtv.com/api/login请求body全部内容 多账号换行隔开
 
 变量格式：export mggy="body=xxxxxxxx"
-cron: 31 2,7,11,17,22 * * *
+cron: 20 11,13,17 * * *
 const $ = new Env("芒果果园");
 */
 let envSplitor = ['\n']  //多账号隔开方式，默认换行可自定义
