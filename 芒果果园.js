@@ -5,6 +5,7 @@
 cron: 20 11,13,17 * * *
 const $ = new Env("芒果果园");
 */
+const $ = new Env("芒果果园");
 let envSplitor = ['\n']  //多账号隔开方式，默认换行可自定义
 const fs = require('fs')
 const path = require('path')
